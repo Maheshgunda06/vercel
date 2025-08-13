@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🍔 Foodie Hub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Delicious Food, Delivered to You</h2>
+        <p>Fresh, hot, and tasty — straight from our kitchen to your table.</p>
+        <a href="#" class="btn">Order Now</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu">
+        <h2>Our Popular Dishes</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Burger">
+                <h3>Cheese Burger</h3>
+                <p>Juicy beef patty with melted cheese.</p>
+                <span>₹199</span>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Pizza">
+                <h3>Margherita Pizza</h3>
+                <p>Classic Italian pizza with fresh mozzarella.</p>
+                <span>₹299</span>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/200" alt="Pasta">
+                <h3>White Sauce Pasta</h3>
+                <p>Creamy and delicious pasta with herbs.</p>
+                <span>₹249</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Foodie Hub | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

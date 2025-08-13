@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🍔 Foodie Hub</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="cart-icon" onclick="toggleCart()">
+            🛒 <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero fade-in">
+        <h2>Delicious Food, Delivered to You</h2>
+        <p>Fresh, hot, and tasty — straight from our kitchen to your table.</p>
+        <a href="#" class="btn glow">Order Now</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu fade-in">
+        <h2>Our Popular Dishes</h2>
+        <div class="cards" id="menu-container">
+            <!-- JS will load menu items here -->
+        </div>
+    </section>
+
+    <!-- Cart Popup -->
+    <div class="cart-popup slide-in" id="cart-popup">
+        <h3>Your Cart</h3>
+        <ul id="cart-items"></ul>
+        <p><strong>Total: ₹<span id="cart-total">0</span></strong></p>
+        <button class="btn glow" onclick="checkout()">Checkout</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Foodie Hub | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
